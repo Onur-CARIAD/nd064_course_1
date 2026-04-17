@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
 
   # Docker provider configuration
   config.vm.provider "docker" do |d|
-    d.image = "opensuse/leap:15.6"
+    d.image = "registry.opensuse.org/opensuse/leap:15.6"
     d.has_ssh = true
     d.remains_running = true
   end
