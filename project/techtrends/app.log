@@ -1,0 +1,38 @@
+2026-04-20 15:05:27,524 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.103:5000
+2026-04-20 15:05:27,524 INFO: [33mPress CTRL+C to quit[0m
+2026-04-20 15:05:27,547 INFO:  * Restarting with stat
+2026-04-20 15:05:27,969 WARNING:  * Debugger is active!
+2026-04-20 15:05:27,975 INFO:  * Debugger PIN: 117-455-000
+2026-04-20 15:09:14,274 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.103:5000
+2026-04-20 15:09:14,275 INFO: [33mPress CTRL+C to quit[0m
+2026-04-20 15:09:14,276 INFO:  * Restarting with stat
+2026-04-20 15:09:14,657 WARNING:  * Debugger is active!
+2026-04-20 15:09:14,661 INFO:  * Debugger PIN: 117-455-000
+2026-04-20 15:10:17,529 INFO:  * Detected change in 'C:\\temp\\Cloud\\nd064_course_1\\project\\techtrends\\app.py', reloading
+2026-04-20 15:10:17,629 INFO:  * Restarting with stat
+2026-04-20 15:10:18,862 INFO:  * Detected change in 'C:\\temp\\Cloud\\nd064_course_1\\project\\techtrends\\app.py', reloading
+2026-04-20 15:10:18,958 INFO:  * Restarting with stat
+2026-04-20 15:16:25,733 INFO:  * Restarting with stat
+2026-04-20 15:16:25,887 INFO:  * Restarting with stat
+2026-04-20 15:19:57,967 INFO:  * Restarting with stat
+2026-04-20 15:19:58,647 INFO:  * Restarting with stat
+2026-04-20 15:20:46,719 INFO:  * Restarting with stat
+2026-04-20 15:20:47,344 INFO:  * Restarting with stat
+2026-04-20 15:24:01,340 INFO:  * Restarting with stat
+2026-04-20 15:24:01,353 INFO:  * Restarting with stat
+2026-04-20 15:26:38,887 INFO:  * Restarting with stat
+2026-04-20 15:26:39,236 INFO:  * Restarting with stat
+2026-04-20 15:30:33,126 INFO:  * Restarting with stat
+2026-04-20 15:30:33,336 INFO:  * Restarting with stat
+2026-04-20 15:33:51,410 INFO:  * Restarting with stat
+2026-04-20 15:33:51,566 INFO:  * Restarting with stat
+2026-04-20 15:36:01,608 INFO:  * Restarting with stat
+2026-04-20 15:36:01,999 INFO:  * Restarting with stat
+2026-04-20 16:17:02,292 INFO:  * Restarting with stat
+2026-04-20 16:17:02,295 INFO:  * Restarting with stat
