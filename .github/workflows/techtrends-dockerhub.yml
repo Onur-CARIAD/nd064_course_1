@@ -26,4 +26,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.onurcariad }}/techtrends:latest
+          tags: ${{ secrets.onurcariad }}/project:latest
