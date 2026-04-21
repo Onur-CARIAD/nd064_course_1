@@ -1,11 +1,50 @@
 ## Docker commands used to build the application 
-# TODO: insert the docker build command
+docker build -t techtrends .
 
 ## Docker commands used to run the application
-# TODO: insert the docker run command
+docker run -d -p 7111:7111 techtrends
+# Access the application on: http://127.0.0.1:7111/ or http://localhost:7111/ or http://0.0.0.0:7111/
 
 ## Docker commands used to get the application logs
-# TODO: insert the docker logs command
+docker tag techtrends onurcariad/techtrends:v1.0.0
 
 ## Logs from the container running the TechTrends application
-# TODO: paste logs from the Docker container 
+docker push onurcariad/techtrends:v1.0.0
+
+
+## Docker command to retrieve logs for TechTrends
+$ docker logs db4cbc30de18541a13e6c1bb5ec79309cfc2b60c2e28944cd32d0154303054cd
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+2026-04-20 14:18:54,404 WARNING werkzeug:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2026-04-20 14:18:54,404 INFO werkzeug:  * Running on http://172.17.0.2:7111/ (Press CTRL+C to quit)
+2026-04-20 14:18:54,405 INFO werkzeug:  * Restarting with stat
+2026-04-20 14:18:54,557 WARNING werkzeug:  * Debugger is active!
+2026-04-20 14:18:54,558 INFO werkzeug:  * Debugger PIN: 239-708-856
+2026-04-20 14:19:00,121 DEBUG app: Database connection opened
+2026-04-20 14:19:00,131 INFO werkzeug: 172.17.0.1 - - [20/Apr/2026 14:19:00] "GET / HTTP/1.1" 200 -
+2026-04-20 14:19:00,156 INFO werkzeug: 172.17.0.1 - - [20/Apr/2026 14:19:00] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-04-20 14:19:00,178 INFO werkzeug: 172.17.0.1 - - [20/Apr/2026 14:19:00] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+2026-04-20 14:19:00,241 INFO werkzeug: 172.17.0.1 - - [20/Apr/2026 14:19:00] "GET /favicon.ico HTTP/1.1" 404 -
+2026-04-20 14:19:52,890 DEBUG app: Database connection opened
+2026-04-20 14:19:52,891 INFO werkzeug: 172.17.0.1 - - [20/Apr/2026 14:19:52] "GET / HTTP/1.1" 200 -
+2026-04-20 14:19:52,903 INFO werkzeug: 172.17.0.1 - - [20/Apr/2026 14:19:52] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-04-20 14:19:52,950 INFO werkzeug: 172.17.0.1 - - [20/Apr/2026 14:19:52] "GET /favicon.ico HTTP/1.1" 404 -
+2026-04-20 14:22:30,471 INFO app: About Us page retrieved
+2026-04-20 14:22:30,473 INFO werkzeug: 172.17.0.1 - - [20/Apr/2026 14:22:30] "GET /about HTTP/1.1" 200 -
+2026-04-20 14:22:30,485 INFO werkzeug: 172.17.0.1 - - [20/Apr/2026 14:22:30] "GET /static/css/main.css HTTP/1.1" 304 -
+2026-04-20 14:22:32,502 DEBUG app: Database connection opened
+2026-04-20 14:22:32,503 INFO werkzeug: 172.17.0.1 - - [20/Apr/2026 14:22:32] "GET / HTTP/1.1" 200 -
+2026-04-20 14:22:32,513 INFO werkzeug: 172.17.0.1 - - [20/Apr/2026 14:22:32] "GET /static/css/main.css HTTP/1.1" 304 -
+2026-04-20 14:28:09,020 INFO werkzeug: 172.17.0.1 - - [20/Apr/2026 14:28:09] "GET /create HTTP/1.1" 200 -
+2026-04-20 14:28:09,031 INFO werkzeug: 172.17.0.1 - - [20/Apr/2026 14:28:09] "GET /static/css/main.css HTTP/1.1" 304 -
+2026-04-20 14:28:20,676 DEBUG app: Database connection opened
+2026-04-20 14:28:20,685 INFO app: New article created. Title: Test
+2026-04-20 14:28:20,685 INFO werkzeug: 172.17.0.1 - - [20/Apr/2026 14:28:20] "POST /create HTTP/1.1" 302 -
+2026-04-20 14:28:20,692 DEBUG app: Database connection opened
+2026-04-20 14:28:20,693 INFO werkzeug: 172.17.0.1 - - [20/Apr/2026 14:28:20] "GET / HTTP/1.1" 200 -
+2026-04-20 14:28:20,706 INFO werkzeug: 172.17.0.1 - - [20/Apr/2026 14:28:20] "GET /static/css/main.css HTTP/1.1" 304 -
