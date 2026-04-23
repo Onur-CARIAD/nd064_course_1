@@ -7,9 +7,9 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/YOUR_ORG_OR_USER/YOUR_REPO.git
+    repoURL: https://github.com/Onur-CARIAD/nd064_course_1.git
     targetRevision: HEAD
-    path: helm/techtrends
+    path: project/helm/techtrends
     helm:
       valueFiles:
         - values-staging.yaml

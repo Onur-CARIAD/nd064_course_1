@@ -10,11 +10,11 @@ image:
 
 service:
   port: 4111
-  targetPort: 3111
+  targetPort: 7111
   protocol: TCP
   type: ClusterIP
 
-containerPort: 3111
+containerPort: 7111
 
 resources:
   requests:
