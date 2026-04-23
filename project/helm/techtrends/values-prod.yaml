@@ -1,0 +1,18 @@
+namespace:
+  name: production
+
+replicaCount: 3
+
+service:
+  type: ClusterIP
+
+image:
+  tag: latest
+
+resources:
+  requests:
+    memory: 128Mi
+    cpu: 500m
+  limits:
+    memory: 256Mi
+    cpu: 1000m

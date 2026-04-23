@@ -1,0 +1,10 @@
+
+apiVersion: v1
+name: techtrends
+description: Helm chart for TechTrends application
+version: 1.0.0
+keywords:
+  - techtrends
+maintainers:
+  - name: O. B.
+icon: https://raw.githubusercontent.com/helm/helm/main/docs/logos/helm.svg
