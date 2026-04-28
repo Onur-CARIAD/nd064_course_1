@@ -4,7 +4,7 @@ namespace:
 replicaCount: 1
 
 image:
-  repository: techtrends
+  repository: onurcariad/techtrends
   tag: latest
   pullPolicy: IfNotPresent
 
